@@ -34,3 +34,41 @@ The script cleans the data, generates business-friendly summaries, and exports r
   Update this line in the script:
   ```python
   df = pd.read_excel("[FILE PATH]")
+
+---
+
+## Excel Data Cleaning & Summary Automation
+
+# Problem :
+-- Excel files contain missing values and duplicates
+
+-- Manual cleaning causes mistakes
+
+-- Large datasets make analysis slow
+
+-- Blind deletion of data can harm business decisions
+
+---
+
+Solution :
+-- Automatically inspects missing values
+
+-- Applies safe, column-based data handling
+
+-- Preserves business-critical data
+
+-- Generates clean summary reports
+
+-- Creates audit-ready output files
+
+---
+
+##Why this is safe for companies
+
+-- No blind deletion of data
+
+-- Logical null handling
+
+-- Transparent reporting
+
+-- Suitable for large datasets
